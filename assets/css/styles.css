@@ -1,0 +1,557 @@
+/* Main */
+
+p {
+  margin-bottom: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.jumbotron {
+  margin-top: 119px;
+}
+
+.price {
+  color: #F44C15
+}
+
+.animation img {
+  transition: all 0.3s ease;
+}
+
+.animation:hover img {
+  transform: scale(1.1);
+
+}
+
+.grey-bg {
+  background: #F2F2F2;
+  overflow: hidden;
+}
+
+.ribbon {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+
+.ribbon-accessoires {
+  position: absolute;
+  top: -15px;
+  right: 0;
+  width: 10%;
+}
+
+/* Navigation */
+
+.nav-animation {
+  z-index: 100;
+  position: fixed;
+  top: 0; 
+  right: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.location {
+  background: #F44242;
+}
+
+.location a {
+  color: white;
+}
+
+.location a:hover {
+  text-decoration: none;
+  color: #FFFF02
+}
+
+.social-links i {
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.social-links .fab:hover {
+  color: yellow
+}
+
+.navigation {
+  background: white;
+}
+
+.navigation a img {
+  height: 50px;
+}
+
+.navigation a {
+  color: black;
+}
+
+.navigation .sales-btn {
+  padding: 10px 20px;
+  background: #F44242;
+  color: white;
+  height: 45px;
+}
+
+.social-links-hidden {
+  display: none;
+}
+
+.navbar-toggler {
+  border: 1px solid black;
+}
+
+.navbar-toggler-icon {
+  color: black
+}
+
+.navbar-toggler-icon i {
+  margin-top: 6px;
+}
+
+/* Footer */
+
+footer {
+  background: #F44242;
+}
+
+footer h5 {
+  color: #FFFF02
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #FFFF02;
+}
+
+footer button {
+  background: #FFFF02
+}
+
+.nieuwsbrief {
+  border-left: 1px solid white;
+  padding-left: 40px;
+}
+
+
+
+/* ================= */
+
+/* === Home page === */
+
+/* ================= */
+
+/* Jumbotron */
+
+.home {
+  background-image: url("../img/jumboroller.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -60px;
+  height: 85vh;
+}
+
+.welkom {
+  width: 50%;
+}
+
+.cards {
+  margin-top: 200px;
+}
+
+.card-image img {
+  width: 94px;
+}
+
+.card-body p {
+  padding: 0;
+}
+
+.cards a {
+  color: black;
+}
+
+/* Index body */
+
+.clothing-item p {
+  z-index: 2;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.clothing-item:hover p {
+  font-size: 20px;
+}
+
+.rollers-img {
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* ================= */
+
+/* === Team === */
+
+/* ================= */
+
+/* Jumbotron */
+
+.team {
+  background-image: url("../img/team-cover-2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+
+.team-action:before,
+.team-action:after {
+  border: 1px solid black;
+  content: "";
+  position: absolute;
+  width: 30%;
+  margin-top: 24px;
+}
+
+.team-action:before {
+  left: 1%;
+  margin-right: 15px;
+}
+
+.team-action:after {
+  right: 1%;
+  margin-left: 15px;
+}
+
+
+
+.img-hide {
+  position: absolute;
+  top: 0;
+  width: 90%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.img-visible:hover .img-hide {
+  opacity: 1;
+}
+
+/* ================= */
+
+/* === Boards === */
+
+/* ================= */
+
+/* Jumbotron */
+
+.boards {
+  background-image: url("../img/bg-boards.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+
+.dotd-container {
+  height: 344px;
+}
+
+.dotd {
+  height: 113%;
+}
+
+/* .latest-skate, .board-item {
+  background: #F5F5F5;
+} */
+
+.board-item {
+  max-height: 304px;
+
+}
+
+.carousel-hidden {
+  display: none;
+}
+
+
+.deck {
+  height: 50%;
+}
+
+
+/* ================= */
+
+/* ===== Sales ===== */
+
+/* ================= */
+
+/* Jumbotron */
+
+.sales {
+  background-image: url("../img/roller-bg-sales.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+
+.korting {
+  text-align: center;
+
+}
+
+.korting hr {
+  height: 0px;
+  border: 0;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  color: white;
+  width: 68%;
+}
+
+.korting h1 {
+  color: #C9473A;
+  font-size: 4.2em;
+}
+
+.korting h2 {
+  color: #C9473A;
+}
+
+.korting h4 {
+  color: white;
+  font-size: 1.57rem;
+}
+
+
+/* ================= */
+
+/* ==== Hoodies ==== */
+
+/* ================= */
+
+/* Jumbotron */
+
+.hoodies {
+  background-image: url("../img/hoodie-cover.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+
+/* ================= */
+
+/* ==== Shirts ==== */
+
+/* ================= */
+
+
+/* Jumbotron */
+.shirts {
+  background-image: url("../img/shirt-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+
+/* ================= */
+
+/* ==== Shirts ==== */
+
+/* ================= */
+
+
+/* Jumbotron */
+.shoes {
+  background-image: url("../img/shoes-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+
+/* ================= */
+
+/* ==== Shirts ==== */
+
+/* ================= */
+
+
+/* Jumbotron */
+.caps {
+  background-image: url("../img/caps-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+
+/* ================= */
+
+/* ==== Contact ==== */
+
+/* ================= */
+
+/* Jumbotron */
+
+.contact {
+  background-image: url("../img/contact-cover.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+
+#map_canvas, #map_canvas2 {
+  height: 300px;
+}
+
+
+.horen:before,
+.horen:after {
+  border: 1px solid black;
+  content: "";
+  position: absolute;
+  width: 30%;
+  margin-top: 24px;
+}
+
+.horen:before {
+  left: 1%;
+}
+
+.horen:after {
+  right: 1%;
+}
+
+.subscribe {
+  background: #F44242;
+  color: white;
+  border: 1px solid black;
+}
+
+.subscribe:hover {
+  background: #FFFF02;
+  color: black;
+}
+
+
+/* Media queries */
+
+@media(max-width: 992px) {
+  .jumbotron {
+    height: 53vh;
+  }
+
+  .sale-square {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%)
+  }
+
+  .sales-btn {
+    margin: 10px 0;
+  }
+
+  .cards {
+    display: none;
+  }
+
+  .social-links-hidden {
+    display: block;
+  }
+
+  
+
+  .social-links-hidden i {
+    color: black;
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 768px) {
+  .jumbotron {
+    height: 41vh;
+  }
+
+  .sale-square {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .korting {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .social-links {
+    display: none;
+  }
+
+  .jumbotron {
+    height: 31vh
+  }
+
+  .items-visible {
+    display: none;
+  }
+
+  .carousel-hidden {
+    display: block;
+  }
+
+  .sale-square {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .korting {
+    display: none;
+  }
+  .nieuwsbrief {
+    border-left: none;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+
+  .horen:before,
+.horen:after, .team-action:before, .team-action:after {
+  border: none;
+}
+}
+
+@media(max-width: 400px) {
+  .jumbotron {
+    height: 21vh;
+  }
+
+  .sale-square {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .korting {
+    display: none;
+  }
+}
