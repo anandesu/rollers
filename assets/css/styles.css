@@ -9,6 +9,24 @@ p {
   src: url("./assets/fonts/truelies.ttf") format('truetype');
 }
 
+
+@font-face {
+  font-family: "eurostile"; 
+  src: url("./assets/fonts/Eurostile.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "eurostib"; 
+  src: url("./assets/fonts/Eurostib.ttf") format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6, p, a  {
+  font-family: "eurostile";
+}
+
+
+
+
 a:hover {
   text-decoration: none;
 }
